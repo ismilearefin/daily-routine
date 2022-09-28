@@ -1,3 +1,5 @@
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Myinfo.css'
 
@@ -10,7 +12,7 @@ const Myinfo = () => {
         </div>
         <div>
           <h3>Ismile Arefin Fahad</h3>
-          <p> Web Developer</p>
+          <p><FontAwesomeIcon icon={faLocationArrow}></FontAwesomeIcon> Web Developer</p>
         </div>
       </div>
       <div className='aboutMe'>

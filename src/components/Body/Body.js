@@ -1,12 +1,18 @@
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Body.css'
 
+
+
+
 const Body = (props) => {
   // console.log(props)
+
   return (
     <div className='bodyClass'>
       <div className='heading'>
-        <h1>Daily Routine</h1>
+        <h1><FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Daily-Routine</h1>
         <p>Select today’s Activities</p>
       </div>
       <div className='bodypart'>
@@ -24,7 +30,7 @@ const Body = (props) => {
 
 function Card(props){
 // console.log(props)
-const {name,time,img} = props.info
+const {name,time,img} = props.info  //Props Destructuring..
   return(
     <div className='Maincard'>
       <div className='imgdiv'>
