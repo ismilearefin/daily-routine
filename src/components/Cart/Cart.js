@@ -4,12 +4,13 @@ import './Cart.css'
 import Details from './Details/Details';
 import Myinfo from './MyInfo/Myinfo';
 
-const Cart = () => {
+const Cart = (props) => {
+  // console.log(props)
   return (
     <div className='CartCss'>
       <Myinfo></Myinfo>
       <Break></Break>
-      <Details></Details>
+      <Details total={props}></Details>
     </div>
   );
 };

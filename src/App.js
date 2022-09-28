@@ -6,7 +6,7 @@ import Cart from './components/Cart/Cart';
 
 function App() {
   const [data , setdata] = useState([])
-  // const [minute, setminute] = useState('')
+  const [minute, setminute] = useState(0)
 
   useEffect(()=>{
     fetch('fakedata.json')
@@ -16,6 +16,8 @@ function App() {
   
   function addToList(min){
     console.log(min)
+    const total = minute + min;
+    setminute(total)
   }
 
   return (
@@ -24,7 +26,9 @@ function App() {
       data={data}
       addToList={addToList}
       ></Body>
-      <Cart></Cart>
+      <Cart 
+      minute={minute}
+      ></Cart>
     </div>
   );
 }
