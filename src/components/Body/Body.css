@@ -19,6 +19,11 @@
   border-radius: 5px;
   font-weight: bold;
 }
+
+.Maincard button:hover{
+  background-color: rgb(60, 180, 255);
+}
+
 .infobox{
   padding: 10px;
 }

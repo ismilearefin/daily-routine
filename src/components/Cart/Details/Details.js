@@ -7,7 +7,7 @@ const Details = (props) => {
 
   const showToastMessage = () => {
     toast.success('You have successfully done your activity !', {
-        position: toast.POSITION.TOP_RIGHT
+        position: toast.POSITION.TOP_CENTER
     });
 };
 
