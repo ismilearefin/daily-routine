@@ -28,9 +28,11 @@ const {name,time,img} = props.info
       <div className='imgdiv'>
         <img src={img} alt="" />
       </div>
+      <div className='infobox'>
       <h3>{name}</h3>
       <p>Time required :{time}m </p>
       <button>Add to list</button>
+      </div>
     </div>
   )
 }

@@ -4,7 +4,7 @@
 .Maincard{
   border: 1px solid black;
   background-color: white;
-  padding: 10px;
+  
 }
 .Maincard button{
   width: 100%;
@@ -13,10 +13,19 @@
   border: none;
   border-radius: 5px;
 }
+.infobox{
+  padding: 10px;
+}
+.imgdiv{
+  display: flex;
+  justify-content: center;
+}
 .imgdiv img{
-  width: 300px;
+  margin-top: 5px;
+  width: 280px;
   height: 200px;
   border-radius: 5px;
+  
 }
 .bodypart{
   display: grid;

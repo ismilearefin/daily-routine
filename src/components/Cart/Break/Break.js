@@ -3,7 +3,7 @@ import './Break.css'
 
 const Break = () => {
   return (
-    <div>
+    <div className='Breakdiv'>
       <h2>Add A Break</h2>
       <div className='breakSec'>
         <a href="/sec">10<small>m</small></a>
