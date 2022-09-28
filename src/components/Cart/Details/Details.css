@@ -1,0 +1,20 @@
+.Time{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.detailsdiv{
+  margin-top: 15px;
+}
+.detailsdiv button{
+  margin-top: 10px;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+}

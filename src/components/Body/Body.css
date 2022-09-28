@@ -1,9 +1,14 @@
 .bodyClass{
   margin: 0px 30px;
 }
+.heading{
+  font-size: 18px;
+  font-weight: bold;
+}
 .Maincard{
   border: 1px solid black;
   background-color: white;
+  border-radius: 5px;
   
 }
 .Maincard button{

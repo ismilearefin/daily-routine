@@ -5,9 +5,9 @@ const Body = (props) => {
   // console.log(props)
   return (
     <div className='bodyClass'>
-      <div>
-      <h1>Daily Routine</h1>
-      <p>Select today’s Activities</p>
+      <div className='heading'>
+        <h1>Daily Routine</h1>
+        <p>Select today’s Activities</p>
       </div>
       <div className='bodypart'>
       {
@@ -30,7 +30,7 @@ const {name,time,img} = props.info
       </div>
       <div className='infobox'>
       <h3>{name}</h3>
-      <p>Time required :{time}m </p>
+      <p>Time required : {time}m </p>
       <button>Add to list</button>
       </div>
     </div>
