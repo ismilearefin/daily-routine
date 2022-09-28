@@ -8,7 +8,7 @@ import Myinfo from './MyInfo/Myinfo';
 const Cart = (props) => {
   // console.log(props)
   const [breakTime, setbreakTime] = useState([])
-  let [time, settime] = useState('')
+  let [time, settime] = useState(0)
 
   useEffect(()=>{
     fetch('time.json')
@@ -17,11 +17,10 @@ const Cart = (props) => {
   },[])
   // console.log(breakTime)
   
-
   function btnBreak(times){
-    const BreakTime = times
-    time = BreakTime;
-    settime(time)
+    const Y = 0
+    const totalBreak = Y + times
+    settime(totalBreak)
   }
   
 

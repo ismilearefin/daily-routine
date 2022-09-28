@@ -15,7 +15,7 @@ function App() {
   },[])
   
   function addToList(min){
-    console.log(min)
+    // console.log(min)
     const total = minute + min;
     setminute(total)
   }

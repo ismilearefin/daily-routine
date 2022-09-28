@@ -24,7 +24,7 @@ function BreakSec(props){
   // console.log(props.button)
   return(
     <div className='breakSec'>
-        <a onClick={()=>props.button(props.min.time)} href="/sec">{props.min.time}<small>m</small></a>
+        <p onClick={()=>props.button(props.min.time)} >{props.min.time}<small>m</small></p>
     </div>
   )
 }

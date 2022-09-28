@@ -1,10 +1,4 @@
-/* .breakSec{
-  background-color: aliceblue;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 25px 0;
-} */
-.breakSec a{
+.breakSec p{
   text-decoration: none;
   font-size: 14px;
   padding: 10px;
@@ -14,7 +8,7 @@
   border-radius: 10px;
   
 }
-.breakSec a:hover{
+.breakSec p:hover{
   background-color: lightskyblue;
   color: rgb(0, 0, 0);
 }
