@@ -1,19 +1,32 @@
 import React from 'react';
 import './Break.css'
 
-const Break = () => {
+const Break = (props) => {
+  // console.log(props)
+  // const breaks=[10,20,30,40,50];
   return (
-    <div className='Breakdiv'>
+    <div >
       <h2>Add A Break</h2>
-      <div className='breakSec'>
-        <a href="/sec">10<small>m</small></a>
-        <a href="/sec">20<small>m</small></a>
-        <a href="/sec">30<small>m</small></a>
-        <a href="/sec">40<small>m</small></a>
-        <a href="/sec">50<small>m</small></a>
+      <div className='Breakdiv'>
+      {
+        props.breakTime.map(min=> <BreakSec 
+          min={min}
+          key={min.id}
+          button={props.btnBreak}
+        ></BreakSec>)
+      }
       </div>
+      
     </div>
   );
 };
+function BreakSec(props){
+  // console.log(props.button)
+  return(
+    <div className='breakSec'>
+        <a onClick={()=>props.button(props.min.time)} href="/sec">{props.min.time}<small>m</small></a>
+    </div>
+  )
+}
 
 export default Break;

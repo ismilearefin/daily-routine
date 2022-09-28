@@ -2,7 +2,7 @@ import React from 'react';
 import './Details.css'
 
 const Details = (props) => {
-  // console.log(props.total)
+  // console.log(props)
   return (
     <div className='detailsdiv'>
       <h3>Exercise Details</h3>
@@ -12,7 +12,7 @@ const Details = (props) => {
         </div>
         <div className='Time'>
           <p>Break Time</p>
-          <p>{} minute</p>
+          <p>{props.time} minute</p>
         </div>
         <div>
           <button>Activity Completed</button>
