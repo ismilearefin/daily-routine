@@ -21,14 +21,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Body  
-      data={data}
-      addToList={addToList}
-      ></Body>
-      <Cart 
-      minute={minute}
-      ></Cart>
+    <div>
+      <div className="App">
+        <Body  
+        data={data}
+        addToList={addToList}
+        ></Body>
+        <Cart 
+        minute={minute}
+        ></Cart>
+      </div>
+      
     </div>
   );
 }
