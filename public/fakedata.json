@@ -2,31 +2,37 @@
   {
     "img": "https://i0.wp.com/riwaqalazhar.com/wp-content/uploads/2021/01/the-importance-of-reciting-the-holy-quran-daily.jpg?resize=1024%2C585&ssl=1",
     "name": "Reading Quran",
-    "time": 60
+    "time": 60,
+    "id": 1
   },
   {
     "img": "https://www.seekerspath.co.uk/wp-content/uploads/2018/01/salah.jpg",
     "name": "Pray Salah",
-    "time": 15
+    "time": 15,
+    "id": 2
   },
   {
     "img": "https://www.wikihow.com/images/thumb/1/15/Take-a-Shower-Step-6-Version-12.jpg/v4-460px-Take-a-Shower-Step-6-Version-12.jpg.webp",
     "name": "Shower",
-    "time": 20
+    "time": 20,
+    "id": 3
   },
   {
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDKl8tfgS5m3CF9MrZ2G4qTvoUsmz6snNFA&usqp=CAU",
     "name": "Football",
-    "time": 90
+    "time": 90,
+    "id": 4
   },
   {
     "img": "https://www.schooldrillers.com/wp-content/uploads/2022/07/baking-and-cooking.jpg",
     "name": "Cooking",
-    "time": 60
+    "time": 60,
+    "id": 5
   },
   {
     "img": "https://www.oxfordlearning.com/wp-content/uploads/2009/05/tips-for-easier-studying.jpg",
     "name": "Study",
-    "time": 180
+    "time": 180,
+    "id": 6
   }
 ]
