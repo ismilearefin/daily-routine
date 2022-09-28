@@ -11,7 +11,9 @@ const Body = (props) => {
       </div>
       <div className='bodypart'>
       {
-        props?.data.map(info=> <Card info={info}
+        props?.data.map(info=> <Card 
+          info={info} 
+          btn={props.addToList}
           key={info.id}
           ></Card>)
       }
@@ -21,7 +23,7 @@ const Body = (props) => {
 };
 
 function Card(props){
-// console.log(props.info)
+// console.log(props)
 const {name,time,img} = props.info
   return(
     <div className='Maincard'>
@@ -31,7 +33,7 @@ const {name,time,img} = props.info
       <div className='infobox'>
       <h3>{name}</h3>
       <p>Time required : {time}m </p>
-      <button>Add to list</button>
+      <button onClick={()=>props.btn(time)}>Add to list</button>
       </div>
     </div>
   )

@@ -14,9 +14,10 @@
 .Maincard button{
   width: 100%;
   padding: 10px;
-  background-color: lightblue;
+  background-color: lightskyblue;
   border: none;
   border-radius: 5px;
+  font-weight: bold;
 }
 .infobox{
   padding: 10px;
