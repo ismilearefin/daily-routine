@@ -7,7 +7,6 @@ import './Body.css'
 
 
 const Body = (props) => {
-  // console.log(props)
 
   return (
     <div className='bodyClass'>
@@ -29,7 +28,7 @@ const Body = (props) => {
 };
 
 function Card(props){
-// console.log(props)
+
 const {name,time,img} = props.info  //Props Destructuring..
   return(
     <div className='Maincard'>

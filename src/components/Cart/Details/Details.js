@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Details.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,8 +13,6 @@ const Details = (props) => {
 
 
 
-
-  // console.log(props)
   return (
     <div className='detailsdiv'>
       <h3>Activity Details</h3>
@@ -24,7 +22,7 @@ const Details = (props) => {
         </div>
         <div className='Time'>
           <p>Break Time</p>
-          <p>{props.time} minute</p>
+          <p>{props.data} minute</p>
         </div>
           <div>
             <button className='btn' onClick={showToastMessage}>Activity Completed</button>

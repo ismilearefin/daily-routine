@@ -9,14 +9,16 @@ function App() {
   const [data , setdata] = useState([])
   const [minute, setminute] = useState(0)
 
+// get FakeData 
   useEffect(()=>{
     fetch('fakedata.json')
     .then(res => res.json())
     .then(datas => setdata(datas))
   },[])
   
+  
+//onClick function
   function addToList(min){
-    // console.log(min)
     const total = minute + min;
     setminute(total)
   }
