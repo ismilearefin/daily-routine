@@ -11,6 +11,7 @@
 .breakSec p:hover{
   background-color: lightskyblue;
   color: rgb(0, 0, 0);
+  cursor:pointer;
 }
 .Breakdiv{
   margin: 15px 0;
